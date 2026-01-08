@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files (don't commit large datasets)
+*.shp
+*.shx
+*.dbf
+*.prj
+*.geojson
+data/
+outputs/
+
+# OS
+.DS_Store
+Thumbs.db

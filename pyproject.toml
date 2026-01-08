@@ -1,0 +1,30 @@
+[project]
+name = "vector-etl-pipeline"
+version = "0.1.0"
+description = "Production ETL pipeline for geospatial vector data"
+authors = [
+    {name = "James Ngei"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = "^3.13"
+dependencies = [
+    "geopandas (>=1.1.2,<2.0.0)",
+    "shapely (>=2.1.2,<3.0.0)",
+    "sqlalchemy (>=2.0.45,<3.0.0)",
+    "psycopg2-binary (>=2.9.11,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "pytest (>=9.0.2,<10.0.0)",
+    "pytest-cov (>=7.0.0,<8.0.0)",
+    "black (>=25.12.0,<26.0.0)",
+    "ruff (>=0.14.10,<0.15.0)",
+    "mypy (>=1.19.1,<2.0.0)"
+]
