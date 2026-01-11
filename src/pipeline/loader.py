@@ -48,7 +48,7 @@ class PostGISLoader:
         import time
 
         start_time = time.time()
-        errors = []
+        errors: list[str] = []
 
         try:
             # Load data using geopandas to_postgis

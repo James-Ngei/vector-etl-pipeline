@@ -33,9 +33,9 @@ class VectorValidator:
         Returns:
             ValidationResult with validation status
         """
-        errors = []
-        warnings = []
-        metadata = {}
+        errors:list[str] = []
+        warnings: list[str] = []
+        metadata: Dict[str, Any] = {}
 
         # Check file exists
         if not filepath.exists():
