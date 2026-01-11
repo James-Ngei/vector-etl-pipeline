@@ -1,6 +1,5 @@
 """Unit tests for the geometry cleaner module."""
 
-import pytest
 import geopandas as gpd
 from shapely.geometry import Point, Polygon
 from shapely import wkt

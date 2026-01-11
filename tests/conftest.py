@@ -1,7 +1,6 @@
 """Pytest configuration and fixtures."""
 
 import pytest
-import sqlalchemy as sa
 from sqlalchemy import create_engine, text
 from src.config.settings import DATABASE_CONFIG
 

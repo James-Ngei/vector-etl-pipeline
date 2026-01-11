@@ -1,10 +1,8 @@
 """Unit tests for the PostGIS loader module."""
 
-import pytest
 import geopandas as gpd
 from shapely.geometry import Point
 from unittest.mock import Mock, MagicMock, patch
-from sqlalchemy import create_engine
 
 
 class TestPostGISLoader:

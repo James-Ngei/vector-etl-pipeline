@@ -4,7 +4,6 @@ from pathlib import Path
 from typing import Optional, Dict, Any
 from dataclasses import dataclass
 import geopandas as gpd
-from shapely.geometry import Point, Polygon, LineString, MultiPolygon
 
 
 @dataclass

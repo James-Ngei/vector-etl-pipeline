@@ -1,9 +1,8 @@
 """PostGIS data loading module."""
 
-from typing import Optional, Dict, Any
 from dataclasses import dataclass
 import geopandas as gpd
-from sqlalchemy import create_engine, text
+from sqlalchemy import text
 from sqlalchemy.engine import Engine
 
 

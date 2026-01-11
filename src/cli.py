@@ -133,14 +133,14 @@ def process(
     # click.echo(f"\n💾 Step 7: Loading to PostGIS table '{output_table}'...")
 
     if dry_run:
-        click.echo(f"\n💾 Step 7: Skipping database load (--dry-run mode)")
+        click.echo("\n💾 Step 7: Skipping database load (--dry-run mode)")
         click.echo(f"  ℹ️  Would have loaded {len(gdf)} rows to table '{output_table}'")
 
         click.echo("\n" + "=" * 60)
         click.echo(
             click.style("🎉 ETL Pipeline Complete (dry-run)!", fg="green", bold=True)
         )
-        click.echo(f"\n📊 Summary:")
+        click.echo("\n📊 Summary:")
         click.echo(
             f"  - Input features: {validation_result.metadata.get('feature_count')}"
         )
@@ -186,7 +186,7 @@ def process(
 
         click.echo("\n" + "=" * 60)
         click.echo(click.style("🎉 ETL Pipeline Complete!", fg="green", bold=True))
-        click.echo(f"\n📊 Summary:")
+        click.echo("\n📊 Summary:")
         click.echo(
             f"  - Input features: {validation_result.metadata.get('feature_count')}"
         )
@@ -214,7 +214,7 @@ def validate(input_file):
 
     if result.is_valid:
         click.echo(click.style("✅ File is valid", fg="green"))
-        click.echo(f"\nMetadata:")
+        click.echo("\nMetadata:")
         for key, value in result.metadata.items():
             click.echo(f"  - {key}: {value}")
 
@@ -222,7 +222,7 @@ def validate(input_file):
         gdf = gpd.read_file(input_file)
         geom_report = validator.check_geometry_validity(gdf)
 
-        click.echo(f"\nGeometry Validity:")
+        click.echo("\nGeometry Validity:")
         click.echo(f"  - Total features: {geom_report['total_features']}")
         click.echo(f"  - Invalid geometries: {geom_report['invalid_count']}")
         click.echo(f"  - Valid: {geom_report['invalid_percentage']:.1f}% invalid")

@@ -1,8 +1,5 @@
 """Integration tests for PostGIS loader."""
 
-import pytest
-import geopandas as gpd
-from shapely.geometry import Point, Polygon
 
 
 class TestPostGISLoader:

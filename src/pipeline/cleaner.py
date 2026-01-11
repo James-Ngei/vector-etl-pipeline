@@ -1,10 +1,8 @@
 """Geometry cleaning and normalization module."""
 
-from typing import Optional
 from dataclasses import dataclass
 import geopandas as gpd
 from shapely.validation import make_valid
-from shapely.geometry import MultiPolygon, Polygon
 
 
 @dataclass
