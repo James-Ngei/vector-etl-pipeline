@@ -1,0 +1,22 @@
+{
+  "version": "0.1.0",
+  "date": "2026-01-09",
+  "benchmarks": {
+    "validator_small_dataset": {
+      "mean_time_seconds": 0.05,
+      "throughput_fps": 2000
+    },
+    "validator_medium_dataset": {
+      "mean_time_seconds": 0.3,
+      "throughput_fps": 3333
+    },
+    "cleaner_fix_geometries": {
+      "mean_time_seconds": 0.5,
+      "throughput_fps": 200
+    },
+    "cleaner_normalize_crs": {
+      "mean_time_seconds": 0.2,
+      "throughput_fps": 5000
+    }
+  }
+}

@@ -29,6 +29,7 @@ htmlcov/
 *.dbf
 *.prj
 *.geojson
+!test_data.geojson  # allow this test file
 data/
 outputs/
 
