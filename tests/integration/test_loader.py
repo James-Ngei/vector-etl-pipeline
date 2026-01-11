@@ -1,7 +1,6 @@
 """Integration tests for PostGIS loader."""
 
 
-
 class TestPostGISLoader:
     """Integration tests for PostGISLoader class."""
 
