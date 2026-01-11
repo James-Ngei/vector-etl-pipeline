@@ -1,4 +1,5 @@
 """Configuration settings for the ETL pipeline."""
+
 import os
 from pathlib import Path
 
