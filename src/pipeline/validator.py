@@ -33,7 +33,7 @@ class VectorValidator:
         Returns:
             ValidationResult with validation status
         """
-        errors:list[str] = []
+        errors: list[str] = []
         warnings: list[str] = []
         metadata: Dict[str, Any] = {}
 
