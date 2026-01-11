@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "test_data",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "Point1" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
+{ "type": "Feature", "properties": { "name": "Point2" }, "geometry": { "type": "Point", "coordinates": [ 1.0, 1.0 ] } },
+{ "type": "Feature", "properties": { "name": "Point3" }, "geometry": { "type": "Point", "coordinates": [ 2.0, 2.0 ] } }
+]
+}
