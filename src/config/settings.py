@@ -7,7 +7,7 @@ PROJECT_ROOT = Path(__file__).parent.parent.parent
 
 # Database configuration
 DATABASE_CONFIG = {
-    "host": os.getenv("DB_HOST", "localhost"),
+    "host": os.getenv("DB_HOST", "127.0.0.1"),
     "port": int(os.getenv("DB_PORT", "5432")),
     "database": os.getenv("DB_NAME", "vector_etl"),
     "user": os.getenv("DB_USER", "postgres"),
