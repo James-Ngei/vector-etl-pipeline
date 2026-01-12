@@ -1,6 +1,6 @@
 # Vector ETL Pipeline
 
-[![CI Pipeline](https://github.com/James-Ngei/vector-etl-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/vector-etl-pipeline/actions/workflows/ci.yml)
+[![CI Pipeline](https://github.com/James-Ngei/vector-etl-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/James-Ngei/vector-etl-pipeline/actions/workflows/ci.yml)
 [![Python 3.13](https://img.shields.io/badge/python-3.13-blue.svg)](https://www.python.org/downloads/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Linting: ruff](https://img.shields.io/badge/linting-ruff-261230.svg)](https://github.com/astral-sh/ruff)

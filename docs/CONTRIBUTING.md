@@ -6,7 +6,7 @@ Thank you for your interest in contributing! This document provides guidelines f
 
 1. **Clone the repository:**
 ```bash
-   git clone https://github.com/YOUR_USERNAME/vector-etl-pipeline
+   git clone https://github.com/James-Ngei/vector-etl-pipeline
    cd vector-etl-pipeline
 ```
 
