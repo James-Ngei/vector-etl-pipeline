@@ -42,6 +42,33 @@ poetry run vector-etl process data.shp --output-table my_table
 poetry run vector-etl process data.geojson --dry-run
 ```
 
+## Documentation
+
+- [Architecture Overview](docs/architecture.md) - System design and component details
+- [Design Decisions](docs/design-decisions.md) - Engineering trade-offs and rationale
+- [API Reference](docs/api.md) - Complete API documentation
+- [Performance Benchmarks](docs/performance.md) - Performance metrics and optimization
+
+## Project Structure
+```
+vector-etl-pipeline/
+├── src/
+│   ├── pipeline/
+│   │   ├── validator.py      # Data validation
+│   │   ├── cleaner.py         # Geometry repair & normalization
+│   │   └── loader.py          # PostGIS loading
+│   ├── config/
+│   │   └── settings.py        # Configuration
+│   └── cli.py                 # Command-line interface
+├── tests/
+│   ├── unit/                  # Unit tests (96% coverage)
+│   ├── integration/           # Integration tests (CI only)
+│   └── performance/           # Benchmark tests
+├── docs/                      # Documentation
+├── benchmarks/                # Performance baselines
+└── .github/workflows/         # CI/CD pipelines
+```
+
 ## Architecture
 ```
 Input File → Validation → Geometry Cleaning → CRS Normalization → 
