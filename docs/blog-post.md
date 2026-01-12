@@ -28,7 +28,7 @@ I built a production-grade ETL pipeline that:
 
 **Tech Stack:** Python 3.13, GeoPandas, PostGIS, SQLAlchemy, Click, Pytest
 
-**Code:** [github.com/YOUR_USERNAME/vector-etl-pipeline](https://github.com/YOUR_USERNAME/vector-etl-pipeline)
+**Code:** [github.com/James-Ngei/vector-etl-pipeline](https://github.com/James-Ngei/vector-etl-pipeline)
 
 ---
 
@@ -357,7 +357,7 @@ If you're building an ETL pipeline:
 ## Try It Yourself
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/vector-etl-pipeline
+git clone https://github.com/James-Ngei/vector-etl-pipeline
 cd vector-etl-pipeline
 
 # Install
