@@ -101,7 +101,3 @@ tests/
 ## Questions?
 
 Open an issue or start a discussion!
-
-## License
-
-MIT License - see [LICENSE](LICENSE) file for details.
