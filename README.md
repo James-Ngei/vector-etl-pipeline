@@ -8,7 +8,7 @@
 Production-grade ETL pipeline for cleaning and loading geospatial vector data into PostGIS.
 
 ## Features
-
+ 
 - ✅ **Automated validation** - File format and geometry validity checking
 - ✅ **Geometry repair** - Automatic fixing of invalid geometries using `ST_MakeValid`
 - ✅ **CRS normalization** - Reproject to target coordinate system
