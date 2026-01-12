@@ -373,9 +373,9 @@ poetry run vector-etl process your_data.shp --dry-run
 
 ## Resources
 
-- [Code Repository](https://github.com/YOUR_USERNAME/vector-etl-pipeline)
-- [Architecture Documentation](docs/architecture.md)
-- [Performance Benchmarks](docs/performance.md)
+- [Code Repository](https://github.com/James-Ngei/vector-etl-pipeline)
+- [Architecture Documentation](architecture.md)
+- [Performance Benchmarks](performance.md)
 - [PostGIS ST_MakeValid Docs](https://postgis.net/docs/ST_MakeValid.html)
 - [GeoPandas User Guide](https://geopandas.org/en/stable/docs/user_guide.html)
 
